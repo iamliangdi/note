@@ -15,3 +15,5 @@
 ## Spring
 
 - [OAuth2数据库表设计](./spring/OAuth2数据库表设计.md)
+
+- [RBAC权限认证](./spring/RBAC权限认证.md)
