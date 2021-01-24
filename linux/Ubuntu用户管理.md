@@ -70,15 +70,27 @@ drwxr-xr-x  2 user    user    4096 Jan 24 02:21 user/
 
 ## 4、删除用户
 
+1. 使用deluser只删除用户
 ```shell
-# 只删除用户
 sudo deluser user
-# 连同用户的主目录和邮箱一起删除
+```
+
+2. 使用deluser连同用户的主目录和邮箱一起删除
+```shell
 sudo deluser --remove-home user
-# 连同用户拥有的所有文件删除
+```
+
+3. 使用deluser连同用户拥有的所有文件删除
+```shell
 sudo deluser --remove-all-files user
-# 只删除用户
+```
+
+4. 使用userdel只删除用户
+```shell
 sudo userdel user
-# 连同用户主目录一起删除
+```
+
+5. userdel连同用户主目录一起删除
+```shell
 sudo deruser -r user
 ```

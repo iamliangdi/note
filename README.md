@@ -13,6 +13,8 @@
 ## Docker
 
 - [docker的安装](./docker/docker的安装.md)
+
+- [docker-compose的安装](./docker/docker的安装.md)
   
 - [docker-compose运行jar包](./docker/docker-compose运行jar包.md)
 
