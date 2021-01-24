@@ -3,6 +3,8 @@
 ## Linux
 
 - [虚拟机安装Ubuntu](./linux/虚拟机安装Ubuntu.md)
+  
+- [Ubuntu用户管理](linux/Ubuntu用户管理.md)
 
 ## Maven
 
