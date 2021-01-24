@@ -1,6 +1,6 @@
 # OAuth2认证与授权
 
-### OAuth2数据库表设计
+### OAuth2数据库表设计(官方sql)
 
 - MYSQL
 

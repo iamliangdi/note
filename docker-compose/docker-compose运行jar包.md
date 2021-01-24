@@ -19,7 +19,7 @@ version: '3.8'
 services:
   xxxxx:
     image: liangdi/xxxxx
-    build: ..
+    build: ../docker
     container_name: xxxxx
     volumes:
       - ./logs:/log

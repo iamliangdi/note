@@ -1,29 +1,35 @@
 # 笔记
 
-## Linux
+- ## idea
 
-- [虚拟机安装Ubuntu](./linux/虚拟机安装Ubuntu.md)
+    - [RBAC基于角色的权限设计](./idea/RBAC基于角色的权限设计.md)
+
+- ## linux
+    
+    - ### ubuntu(起始版本为20.04.1)
+        
+        - [虚拟机安装ubuntu](./linux/ubuntu/虚拟机安装ubuntu.md)
+        
+        - [ubuntu防火墙管理](./linux/ubuntu/ubuntu防火墙管理.md)
+      
+        - [ubuntu用户管理](./linux/ubuntu/ubuntu用户管理.md)
+
+- ## maven(起始版本为3.6.2)
+
+    - [依赖版本查询](./maven/依赖版本查询.md)
+
+- ## docker(起始版本为19.03.8)
+
+    - [docker的安装](./docker/docker的安装.md)
   
-- [Ubuntu用户管理](linux/Ubuntu用户管理.md)
-
-## Maven
-
-- [版本查询](./maven/版本查询.md)
-
-## Docker
-
-- [docker的安装](./docker/docker的安装.md)
-
-## docker-compose
-
-- [docker-compose的安装](./docker/docker-compose/docker-compose的安装.md)
+- ## docker-compose(起始版本为1.28.0)
+    
+    - [docker-compose的安装](./docker-compose/docker-compose的安装.md)
   
-- [docker-compose运行jar包](./docker/docker-compose/docker-compose运行jar包.md)
+    - [docker-compose运行jar包](./docker-compose/docker-compose运行jar包.md)
 
-- [docker-compose运行postgresql](./docker/docker-compose/docker-compose运行postgresql.md)
+    - [docker-compose运行postgresql](./docker-compose/docker-compose运行postgresql.md)
 
-## Spring
+- ## spring-cloud(起始版本为Hoxton.SR9)
 
-- [OAuth2数据库表设计](./spring/OAuth2数据库表设计.md)
-
-- [RBAC权限认证](./spring/RBAC权限认证.md)
+    - [OAuth2认证与授权](./spring-cloud/OAuth2认证与授权.md)
