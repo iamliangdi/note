@@ -15,11 +15,11 @@ CMD java -jar xxxxx.jar --spring.config.location=/application.yml > /log/start.l
 - 编辑docker-compose.yml文件如下
 
 ```yaml
-version: '3.1'
+version: '3.8'
 services:
   xxxxx:
     image: liangdi/xxxxx
-    build: .
+    build: ..
     container_name: xxxxx
     volumes:
       - ./logs:/log

@@ -14,9 +14,13 @@
 
 - [docker的安装](./docker/docker的安装.md)
 
-- [docker-compose的安装](./docker/docker的安装.md)
+## docker-compose
+
+- [docker-compose的安装](./docker/docker-compose/docker-compose的安装.md)
   
-- [docker-compose运行jar包](./docker/docker-compose运行jar包.md)
+- [docker-compose运行jar包](./docker/docker-compose/docker-compose运行jar包.md)
+
+- [docker-compose运行postgresql](./docker/docker-compose/docker-compose运行postgresql.md)
 
 ## Spring
 
