@@ -6,31 +6,31 @@
 
 ```shell
 > sudo adduser user
-[sudo] password for liangdi: 
-Adding user 'user' ...
-Adding new group 'user' (1001) ...
-Adding new user 'user' (1001) with group 'user' ...
-Creating home directory '/home/user' ...
-Copying files from '/etc/skel' ...
-# 输入两次新用户的密码
-New password: 
-Retype new password: 
-passwd: password updated successfully
-Changing the user information for user
-Enter the new value, or press ENTER for the default
-	Full Name []: 
-	Room Number []: 
-	Work Phone []: 
-	Home Phone []: 
-	Other []: 
-Is the information correct? [Y/n] y
+    [sudo] password for liangdi: 
+    Adding user 'user' ...
+    Adding new group 'user' (1001) ...
+    Adding new user 'user' (1001) with group 'user' ...
+    Creating home directory '/home/user' ...
+    Copying files from '/etc/skel' ...
+    # 输入两次新用户的密码
+    New password: 
+    Retype new password: 
+    passwd: password updated successfully
+    Changing the user information for user
+    Enter the new value, or press ENTER for the default
+        Full Name []: 
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+    Is the information correct? [Y/n] y
 # 查看/home,此时已经自动创建了user文件夹
 > ll
-total 16
-drwxr-xr-x  4 root    root    4096 Jan 24 02:10 ./
-drwxr-xr-x 20 root    root    4096 Dec 17 15:00 ../
-drwxr-xr-x  3 liangdi liangdi 4096 Jan 24 02:08 liangdi/
-drwxr-xr-x  2 user    user    4096 Jan 24 02:10 user/
+    total 16
+    drwxr-xr-x  4 root    root    4096 Jan 24 02:10 ./
+    drwxr-xr-x 20 root    root    4096 Dec 17 15:00 ../
+    drwxr-xr-x  3 liangdi liangdi 4096 Jan 24 02:08 liangdi/
+    drwxr-xr-x  2 user    user    4096 Jan 24 02:10 user/
 ```
 
 - 1.2 使用useradd命令，需要使用参数选项指定上述基本设置，如果不使用任何参数，则创建的用户无密码、无主目录、没有指定shell版本；
@@ -39,16 +39,16 @@ drwxr-xr-x  2 user    user    4096 Jan 24 02:10 user/
 > sudo useradd -d /home/user -m -s /bin/bash user
 # 设置用户密码
 > sudo passwd user
-New password: 
-Retype new password: 
-passwd: password updated successfully
+    New password: 
+    Retype new password: 
+    passwd: password updated successfully
 # 查看/home,此时已经自动创建了user文件夹
 > ll
-total 16
-drwxr-xr-x  4 root    root    4096 Jan 24 02:21 ./
-drwxr-xr-x 20 root    root    4096 Dec 17 15:00 ../
-drwxr-xr-x  3 liangdi liangdi 4096 Jan 24 02:08 liangdi/
-drwxr-xr-x  2 user    user    4096 Jan 24 02:21 user/
+    total 16
+    drwxr-xr-x  4 root    root    4096 Jan 24 02:21 ./
+    drwxr-xr-x 20 root    root    4096 Dec 17 15:00 ../
+    drwxr-xr-x  3 liangdi liangdi 4096 Jan 24 02:08 liangdi/
+    drwxr-xr-x  2 user    user    4096 Jan 24 02:21 user/
 ```
 
 ## 2、修改用户相关参数
