@@ -12,7 +12,11 @@
         
         - [ubuntu防火墙管理](./linux/ubuntu/ubuntu防火墙管理.md)
       
-        - [ubuntu用户管理](./linux/ubuntu/ubuntu用户管理.md)
+        - [ubuntu用户管理](./linux/ubuntu/ubuntu用户管理.md
+    
+    - ### centos(起始版本为stream-8)
+      
+        - [虚拟机安装centos](./linux/centos/虚拟机安装centos.md)
 
 - ## maven(起始版本为3.6.2)
 
