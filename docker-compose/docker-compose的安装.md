@@ -3,7 +3,10 @@
 1、 下载文件，注意版本号可在链接中修改
 
 ```shell
+# ubuntu
 wget https://github.com/docker/compose/releases/download/1.28.0/docker-compose-$(uname -s)-$(uname -m) -O /usr/local/bin/docker-compose
+# centos
+sudo curl -L https://github.com/docker/compose/releases/download/1.28.0/docker-compose-$(uname -s)-$(uname -m) -O /usr/local/bin/docker-compose
 ```
 
 2、 添加执行权限
