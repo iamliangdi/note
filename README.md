@@ -20,6 +20,14 @@
         
         - [centos用户管理](./linux/centos/centos用户管理.md)
     
+- ## structure
+  
+    - [线性表](./structure/线性表.md)
+    
+- ## algorithm
+  
+  - [时间复杂度](algorithm/时间复杂度.md)
+    
 - ## maven(起始版本为3.6.2)
 
     - [依赖版本查询](./maven/依赖版本查询.md)
